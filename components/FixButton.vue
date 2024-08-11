@@ -23,17 +23,31 @@
         >
           <div class="">
             <font-awesome-icon :icon="['fab', 'facebook-f']" />
-            <h1 class="fw-bold" style="display: inline-block">Facebook</h1>
+            <h1 class="fw-bold" style="display: inline-block">
+              <a
+                href="https://www.facebook.com/p/%E5%BE%B7%E7%BE%A4%E8%B2%BF%E6%98%93%E8%82%A1%E5%85%AC%E5%8F%B8-100054440951345"
+                target="_blank"
+                >Facebook</a
+              >
+            </h1>
           </div>
 
           <div class="">
             <font-awesome-icon :icon="['fab', 'line']" />
-            <h1 class="fw-bold" style="display: inline-block">Line</h1>
+            <h1 class="fw-bold" style="display: inline-block">
+              <a
+                href="https://liff.line.me/1645278921-kWRPP32q/?accountId=tct.comtw"
+                target="_blank"
+                >Line</a
+              >
+            </h1>
           </div>
 
           <div class="">
             <font-awesome-icon class="me-4" :icon="['fas', 'phone']" />
-            <h1 class="fw-bold" style="display: inline-block">Phone</h1>
+            <h1 class="fw-bold" style="display: inline-block">
+              <a href="tel:+886-2-25153105">Phone</a>
+            </h1>
           </div>
         </div>
       </div>
@@ -107,14 +121,4 @@ const closeBg = () => {
 .round-leave-to {
   transform: rotate(180deg);
 }
-
-/* .v-enter-from {
-  opacity: 0;
-}
-.v-enter-to {
-  opacity: 1;
-}
-.v-enter-active {
-  transition: opacity 0.5s ease;
-} */
 </style>

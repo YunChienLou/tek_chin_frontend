@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <LandingPic
-      :imageUrl="img"
+      :image-url="img"
       :title="heading"
       :paragraph="'我們提供的零部件種類，歡迎電話詢價'"
     />
@@ -16,6 +16,7 @@ import { ref } from 'vue'
 import LandingPic from '../components/LandingPic.vue'
 import SearchResults from '../components/SearchResults.vue'
 export default {
+  name: 'NewsPages',
   components: { LandingPic, SearchResults },
   setup() {
     const heading = ref('銷售產品')

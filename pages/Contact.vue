@@ -33,31 +33,6 @@
             </dd>
           </div>
         </div>
-        <!-- <div class="list-group">
-          <li class="list-group-item list-group-item-action">
-            <a
-              href="https://www.google.com/maps?ll=25.067779,121.535464&z=14&t=m&hl=zh-TW&gl=TW&mapclient=embed&cid=7719019327859994892"
-              >中山區建國北路三段113巷31弄15號1樓, Taipei, Taiwan</a
-            >
-          </li>
-          <li
-            class="list-group-item list-group-item-action"
-            data-bs-toggle="tooltip"
-            data-bs-html="true"
-            title="點擊複製"
-          >
-            @TCT.COMTW
-          </li>
-          <li
-            class="list-group-item list-group-item-action"
-            data-bs-toggle="tooltip"
-            data-bs-html="true"
-            title="點擊複製"
-            @click="click_copy_string()"
-          >
-            02 2515 3105
-          </li>
-        </div> -->
         <div class="my-5">
           <h2 class="fw-bold my-3 border-bottom border-danger border-5">
             營業時間
@@ -76,6 +51,7 @@
 
 <script>
 export default {
+  name: 'ContactPages',
   setup() {
     const click_copy_string = (event) => {
       console.log(event)

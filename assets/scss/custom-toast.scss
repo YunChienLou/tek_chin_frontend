@@ -1,0 +1,27 @@
+.toasted {
+    min-width: 40vw; /* Adjust the width as needed */
+    // background-color: white !important; /* Set background to white */
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: start !important;
+    // color:black !important;
+    // padding: 5% !important; /* Adjust padding as needed */
+    // border-radius: 4% !important; /* Optional: add some border radius for rounded corners */
+    font-size:x-large !important;
+    font-weight: 800 !important;
+    padding: 5% !important;
+
+    position: relative;
+    padding-left: 40px; // Adjust based on icon size
+
+    &::before {
+        content: '';
+        position: relative;
+        fill:aqua;
+        width: 20%; // Adjust based on icon size
+        height: 50px; // Adjust based on icon size
+        background: url('@/assets/warning.svg') no-repeat center center;
+        background-size: contain;
+    }
+}

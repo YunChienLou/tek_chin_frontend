@@ -8,8 +8,8 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint:prettier": "prettier --check .",
-    "lint": "npm run lint:prettier",
-    "lintfix": "prettier --write --list-different ."
+    "lint": "pnpm run lint:prettier",
+    "lintfix": "prettier --write --list-different . && eslint --fix ."
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.3.0",
@@ -17,21 +17,30 @@
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/firebase": "^8.2.2",
     "@nuxtjs/fontawesome": "^1.1.2",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "@nuxtjs/toast": "^3.3.1",
     "bootstrap": "^4.6.2",
     "bootstrap-vue": "^2.22.0",
     "core-js": "^3.25.3",
-    "eslint": "^7.0.0",
+    "crypto-js": "^4.2.0",
     "firebase": "^9.18.0",
     "jquery": "^1.9.1",
-    "node-sass": "^8.0.0",
+    "nitropack": "^2.9.7",
     "nuxt": "^2.15.8",
+    "quill": "^2.0.2",
+    "sass": "^1.77.6",
+    "ufo": "^0.7.9",
     "vue": "^2.7.10",
+    "vue-quill-editor": "^3.0.6",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10"
   },
   "devDependencies": {
-    "eslint-config-prettier": "^8.5.0",
-    "prettier": "^2.7.1",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.27.0",
+    "prettier": "^2.8.8",
     "sass": "^1.60.0",
     "sass-loader": "^10.4.1"
   }

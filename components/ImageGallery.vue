@@ -84,7 +84,7 @@ const props = defineProps({
 })
 const cta = () => {
   // cta_event_log(props.title + '/' + props.buttonText);
-  console.log('cta')
+  // console.log('cta')
 }
 </script>
 
