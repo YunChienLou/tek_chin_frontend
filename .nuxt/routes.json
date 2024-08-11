@@ -1,0 +1,63 @@
+[
+  {
+    "name": "About",
+    "path": "/About",
+    "component": "C:\\\\Users\\\\ryan5\\\\Project_Files\\\\first_nuxt\\\\pages\\\\About.vue",
+    "chunkName": "pages/About",
+    "url": "/About",
+    "_name": "_0e32d85e"
+  },
+  {
+    "name": "admin",
+    "path": "/admin",
+    "component": "C:\\\\Users\\\\ryan5\\\\Project_Files\\\\first_nuxt\\\\pages\\\\admin\\\\index.vue",
+    "chunkName": "pages/admin/index",
+    "url": "/admin",
+    "_name": "_3f58757c"
+  },
+  {
+    "name": "Contact",
+    "path": "/Contact",
+    "component": "C:\\\\Users\\\\ryan5\\\\Project_Files\\\\first_nuxt\\\\pages\\\\Contact.vue",
+    "chunkName": "pages/Contact",
+    "url": "/Contact",
+    "_name": "_4f5b0d31"
+  },
+  {
+    "name": "Login",
+    "path": "/Login",
+    "component": "C:\\\\Users\\\\ryan5\\\\Project_Files\\\\first_nuxt\\\\pages\\\\Login.vue",
+    "chunkName": "pages/Login",
+    "url": "/Login",
+    "_name": "_10db538c"
+  },
+  {
+    "name": "News",
+    "path": "/News",
+    "component": "C:\\\\Users\\\\ryan5\\\\Project_Files\\\\first_nuxt\\\\pages\\\\News.vue",
+    "chunkName": "pages/News",
+    "url": "/News",
+    "_name": "_35139012"
+  },
+  {
+    "name": "Products",
+    "path": "/Products",
+    "component": "C:\\\\Users\\\\ryan5\\\\Project_Files\\\\first_nuxt\\\\pages\\\\Products.vue",
+    "chunkName": "pages/Products",
+    "url": "/Products",
+    "_name": "_e0008aba"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\ryan5\\\\Project_Files\\\\first_nuxt\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "url": "/",
+    "_name": "_930ed97a"
+  },
+  {
+    "path": "*",
+    "redirect": "/",
+    "_name": "_29172c1a"
+  }
+]

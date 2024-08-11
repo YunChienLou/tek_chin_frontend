@@ -1,0 +1,47 @@
+{
+  "CarouselEditor": {
+    "description": "Auto imported from components/CarouselEditor.vue"
+  },
+  "FixButton": {
+    "description": "Auto imported from components/FixButton.vue"
+  },
+  "FooterComponent": {
+    "description": "Auto imported from components/FooterComponent.vue"
+  },
+  "Heading": {
+    "description": "Auto imported from components/Heading.vue"
+  },
+  "HelloWorld": {
+    "description": "Auto imported from components/HelloWorld.vue"
+  },
+  "ImageGallery": {
+    "description": "Auto imported from components/ImageGallery.vue"
+  },
+  "LandingPic": {
+    "description": "Auto imported from components/LandingPic.vue"
+  },
+  "LoadingComponent": {
+    "description": "Auto imported from components/LoadingComponent.vue"
+  },
+  "Navbar": {
+    "description": "Auto imported from components/Navbar.vue"
+  },
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "PostCard": {
+    "description": "Auto imported from components/PostCard.vue"
+  },
+  "SearchResults": {
+    "description": "Auto imported from components/SearchResults.vue"
+  },
+  "ModalsCarouselModal": {
+    "description": "Auto imported from components/modals/CarouselModal.vue"
+  },
+  "ModalsConfirmModal": {
+    "description": "Auto imported from components/modals/ConfirmModal.vue"
+  },
+  "ModalsPostModal": {
+    "description": "Auto imported from components/modals/PostModal.vue"
+  }
+}
