@@ -6,7 +6,7 @@ WORKDIR /app
 
 # 複製 package.json 和 package-lock.json
 COPY package.json package-lock.json ./
-RUN npm install
+RUN npm ci
 
 # 複製所有檔案
 COPY . .
@@ -16,6 +16,7 @@ RUN npm run build
 
 # 暴露端口
 EXPOSE 3000
+ENV HOST 0.0.0.0
 
 # 啟動 Nuxt 應用
 CMD ["npm", "start"]

@@ -88,3 +88,24 @@ sw.*
 
 # Vim swap files
 *.swp
+.nuxt/App.js
+.nuxt/client.js
+.nuxt/loading.html
+.nuxt/server.js
+.nuxt/store.js
+.nuxt/utils.js
+.nuxt/components/index.js
+.nuxt/components/nuxt-build-indicator.vue
+.nuxt/components/nuxt-error.vue
+.nuxt/mixins/fetch.server.js
+.nuxt/views/error.html
+.nuxt/App.js
+.nuxt/client.js
+.nuxt/loading.html
+.nuxt/server.js
+.nuxt/store.js
+.nuxt/utils.js
+.nuxt/components/index.js
+.nuxt/components/nuxt-error.vue
+.nuxt/mixins/fetch.server.js
+.nuxt/views/error.html

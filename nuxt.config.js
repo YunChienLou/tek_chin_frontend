@@ -64,6 +64,11 @@ export default {
     SECRET_KEY: process.env.SECRET_KEY,
   },
 
+  server: {
+    host: '0.0.0.0', // Listen on all addresses
+    port: 3000, // Default port
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['@/assets/scss/custom-toast.scss'],
 
@@ -145,6 +150,10 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+  generate: {
+    // 指定靜態文件的輸出目錄
+    dir: 'C:/Users/ryan5/Project_Files/tek_chin/src/main/resources/static',
+  },
   watchers: {
     webpack: {
       aggregateTimeout: 300,
